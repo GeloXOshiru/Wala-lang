@@ -80,7 +80,7 @@ end)
 
 local Killer = window:AddTab("Puksa!")
 
--- local dropdown = Killer:AddDropdown("Select Pet", function(text)
+local dropdown = Killer:AddDropdown("Select Pet", function(text)
     local petsFolder = game.Players.LocalPlayer:WaitForChild("petsFolder")
     for _, folder in pairs(petsFolder:GetChildren()) do
         if folder:IsA("Folder") then
